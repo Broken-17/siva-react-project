@@ -12,7 +12,7 @@ function Services(){
         <Counter />
         <center>
             <h1>
-                Services Page got loaded
+                Services Page got loaded andgit is updating this
             </h1>
         </center>
     </>
