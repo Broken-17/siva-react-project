@@ -1,0 +1,55 @@
+
+.sd{
+  border:1px solid black;
+  border-radius: 15px;
+  width:80%;
+  padding:10px 15px;
+  margin:10px;
+  font-family: cursive;
+  font-size: medium;
+  text-align: center;
+}
+
+.sd:hover{
+  background-color: rgb(154, 193, 216);
+  color: rgb(11, 76, 113);
+}
+
+.nav-bar, .nav-bar nav button{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(70, 162, 216);
+  font-family: cursive;
+  font-size: large;
+  color:whitesmoke;
+  border:0px;
+}
+
+.nav-bar nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar nav button{
+  margin: 4px;
+  padding:12px;
+  border-radius: 15px;
+}
+
+.nav-bar nav button:hover{
+  background-color: rgb(29, 73, 99);
+}
+
+#center{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.pp{
+  border-radius: 50%;
+  margin:7px;
+}
+
+.nav-bar nav button{
+  width:100%;
+}
